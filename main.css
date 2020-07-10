@@ -1,3 +1,6 @@
-.filouteterie{position: relative;width: 500px;height: 700px;}
+html{background-image: url('img/bg-Body.png');background-repeat: no-repeat;background-size: 100% 100%;height: 100%;}
+h1{text-align: center;text-decoration: underline;}
+p{text-align: center;}
+.filouteterie{position: relative;width: 500px;height: 700px;margin-left: auto;margin-right: auto;margin-top: 70px;}
 .filouteterie #restartButton{position: absolute;top: 65%;left: 40%;width: 100px;height: 100px;display: none;background-color: rgba(0,0,0,0);border: none;}
 .filouteterie #startButton{position: absolute;top: 20%;left: 32%;height: 85px;width: 200px;display: block;background:url(img/play.png) no-repeat;background-size: cover;border: none;}

@@ -26,6 +26,7 @@ var vitessePipe = 0;/*coefficient vitesse pipe*/
 var upMove = 0;/*hauteur saut bird*/
 var score = 0;
 var scoreTemp = 0;
+var bestScore = 0;
 var soundLose = 0;/*indicateur si sound play*/
 var scoreDraw = 0;/*Score a afficher à la fin de la game*/
 var xbg = 0;/*coordonnées X du BG*/
@@ -158,6 +159,7 @@ function gameOver() {
   restartButton.style.display="block";
   restartButton.onclick=restart;
   loseSound();
+  bestScore = score;
 }
 
 function vitesseBirdetPipe() {

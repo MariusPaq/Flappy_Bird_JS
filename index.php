@@ -8,6 +8,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge"
   </head>
   <body>
+    <h1>Flappy Bird</h1>
+    <p>By Julie BOULENGER & Marius PAQUET</p>
     <div class="filouteterie">
       <button type="button" id="restartButton" name="button"></button>
       <button type="button" id="startButton" name="button2"></button>
