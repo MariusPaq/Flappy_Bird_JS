@@ -57,4 +57,7 @@ lose.src = "sounds/lose-sound-effects";
 ...
 ```
 II/Intéraction   
-L'utilisateur intéragit avec le Bird grace au click de la souris :  ```document.addEventListener("click",moveUp);```
+L'utilisateur intéragit avec le Bird grace au click de la souris :  ```document.addEventListener("click",moveUp);```   
+Le click appelle la fonction moveUp qui se chargera de modifier la position du bird.   
+
+III/La Fonction Boucle  
