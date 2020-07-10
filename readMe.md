@@ -42,11 +42,19 @@ var lose = new Audio();
 
 Création et affectation des variables Objet pour les sons et images:  
 ```
+var ground = new Image();
+var ground2 = new Image();
+...
 ground2.src = "img/ground.png";
 ground.src = "img/ground.png";
 ...
 
+var win = new Audio();
+var lose = new Audio();
+...
 win.src = "sounds/success-win-sound-effect";
 lose.src = "sounds/lose-sound-effects";
 ...
 ```
+II/Intéraction   
+L'utilisateur intéragit avec le Bird grace au click de la souris :  ```document.addEventListener("click",moveUp);```
