@@ -15,7 +15,7 @@ Simple fichier php :
 <button type="button" id="startButton" name="button2"></button>
 
 ```
-##main.js
+##main.js  
 I/Variables & Objets     
 Création des variables et variables Objet pour les sons et image.
 ```
