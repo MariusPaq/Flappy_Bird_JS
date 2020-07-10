@@ -17,7 +17,7 @@ Simple fichier php :
 ```
 ##main.js
 I/Variables & Objets     
-Création des variables et variables Objet pour les sons et image. gang
+Création des variables et variables Objet pour les sons et image.
 ```
 
 ```
